@@ -5,13 +5,11 @@ function check() {
   let d = document.getElementById("sub4").value;
 
 
- // Check if any input field is empty
  if (a === "" || b === "" || c === "" || d === "") {
   alert("Please enter something in all fields.");
-  return; // Stop the function if any input is empty
+  return; 
 }
 
-// Convert the input values to integers
 a = parseInt(a);
 b = parseInt(b);
 c = parseInt(c);
